@@ -26,6 +26,9 @@ Install Jekyll and Bundler
 gem install jekyll bundler
 ```
 That’s it! You’re ready to start using Jekyll.
+> [!NOTE]
+> How to install jekyll  
+> [Installation about jekyll](https://jekyllrb.com/docs/installation/)
 
 ## 🎮 Usage
 Install Jekyll and Bundler
