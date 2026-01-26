@@ -1,7 +1,4 @@
 ## 🛠️ Setup
-### GitHub Pages サイト作成
-[GitHub Pages サイトを作成する](https://docs.github.com/ja/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-
 ### Install Jekyll on Ubuntu
 Prerequisites
 ```text
@@ -28,21 +25,18 @@ gem install jekyll bundler
 That’s it! You’re ready to start using Jekyll.
 > [!NOTE]
 > How to install jekyll  
-> [Installation about jekyll](https://jekyllrb.com/docs/installation/)
+> [Installation about jekyll(offcial)](https://jekyllrb.com/docs/installation/)
+
+> [!NOTE]
+> How to install Bundler
+> [Bundler (offcial)](https://bundler.io/)
 
 ## 🎮 Usage
-Install Jekyll and Bundler
-```bash
-
-```
-```bash
-gem install jekyll bundler
-```
-
-### Jekyllを使用して GitHub Pages サイトを作成する
-```bash
-
-```
+### Building and previewing your site locally
+1. Change your working directory to the root directory of your site.
+2. Run `bundle install`
+3. Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.\\
+   The built site is stored in the directory `_site`.
 
 ## 📚 References
 - [jekyll 公式](https://jekyllrb-ja.github.io/)
