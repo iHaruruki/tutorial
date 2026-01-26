@@ -48,3 +48,5 @@ bundle exec jekyll serve
 - [jekyll (Official)](https://jekyllrb-ja.github.io/)
 - [Jekyll Themes (Official)](https://jekyllthemes.io/)
 - [Just the Docs (Official)](https://just-the-docs.com/)
+- [GitHub Pages (official)](https://docs.github.com/en/pages)
+- [GitHub Pages / Actions workflow (official)](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/)
