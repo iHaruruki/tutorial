@@ -45,5 +45,6 @@ bundle exec jekyll serve
 ```
 
 ## 📚 References
-- [jekyll 公式](https://jekyllrb-ja.github.io/)
-- [Jekyll Themes](https://jekyllthemes.io/)
+- [jekyll (Official)](https://jekyllrb-ja.github.io/)
+- [Jekyll Themes (Official)](https://jekyllthemes.io/)
+- [Just the Docs (Official)](https://just-the-docs.com/)
