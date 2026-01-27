@@ -1,23 +1,26 @@
 # サイト設定
-title: "ドキュメント"
-description: "Ubuntu, Git, LaTeX, ROS2, YARPのドキュメント"
-url: "https://yourdomain.com"
-baseurl: ""
+title: "My Dev Docs"
+description: "Docker, Linux, Git, LaTeX, ROS2, YARP"
+theme: "just-the-docs"
+
+url: "https://example.com"   # 公開用URL（後で修正可）
+baseurl: ""                  # GitHub Pages でサブパス運用なら /repo-name
 
 # 多言語設定
 languages: ["ja", "en"]
 default_lang: "ja"
-exclude_from_localization: ["/assets", "/css", "/js", "/images", "/downloads"]
-parallel_localization: false
+exclude_from_localization: ["/assets", "/css", "/images"]
+parallel_localization: true
+
+just_the_docs:
+  search_enabled: true
+  heading_anchors: true
 
 # コレクション設定
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-
-# テーマ（HTMLを最小化するため）
-theme: minima
+# collections:
+#   docs:
+#     output: true
+#     permalink: /:path/
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
@@ -33,10 +36,10 @@ mermaid:
   vertion: "11.12.0"
 
 plugins:
-  - jekyll-default-layout
+  #- jekyll-default-layout
   - jekyll-polyglot
-  - jekyll-relative-links # 相対リンク
-  - jekyll-sitemap
+  #- jekyll-relative-links # 相対リンク
+  #- jekyll-sitemap
 
 # Color scheme supports "light" (default) and "dark"
 #color_scheme: light
@@ -48,14 +51,8 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "docs"
+      type: docs
     values:
-      layout: "doc"
-  - scope:
-      path: "index.md"
-    values:
-      layout: "home"
-  - scope:
-      path: "index-en.md"
-    values:
-      layout: "home"
+      layout: "default"
+      has_children: false
+      nav_order: 1
