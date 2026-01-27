@@ -10,6 +10,12 @@ aux_links:
   "English":
     - "http://iharuruki.github.io/tutorial/en/"
 
+aux_links:
+  "日本語":
+    - "http://iharuruki.github.io/tutorial/"
+  "English":
+    - "http://iharuruki.github.io/tutorial/en/"
+
 plugins:
   - jekyll-default-layout
   - jekyll-polyglot
