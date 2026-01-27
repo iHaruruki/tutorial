@@ -6,12 +6,15 @@ theme: just-the-docs
 #logo: "/assets/images/just-the-docs.png"
 
 
-url: https://github.com/iHaruruki/tutorial.git
+url: https://iharuruki.github.io/tutorial/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://iharuruki.github.io/tutorial/
 
 # Version of mermaid library
 # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
 mermaid:
   vertion: "9.1.3"
+
+plugins:
+  - jekyll-default-layout
