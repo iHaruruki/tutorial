@@ -20,11 +20,11 @@ exclude_from_localization: ["/assets", "/css", "/images"]
 just_the_docs:
   search_enabled: true
   heading_anchors: true
-  aux_links:
-    "日本語":
-      - "/ja/"
-    "English":
-      - "/en/"
+aux_links:
+  "日本語":
+    - "/"
+  "English":
+    - "/en/"
 
 # コレクション設定
 # collections:
