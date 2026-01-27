@@ -6,6 +6,8 @@ gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
 gem "just-the-docs", "0.12.0" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 
-gem "jekyll-default-layout"
-
-gem 'jekyll-relative-links' # 相対リンク
+group :jekyll_plugins do
+    gem "jekyll-default-layout"
+    gem 'jekyll-relative-links' # 相対リンク
+    gem 'jekyll-polyglot' # 多言語対応
+end

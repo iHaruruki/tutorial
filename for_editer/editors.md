@@ -21,6 +21,7 @@ source ~/.bashrc
 Install Jekyll and Bundler
 ```bash
 gem install jekyll bundler
+gem install jekyll-polyglot
 ```
 That’s it! You’re ready to start using Jekyll.
 > [!NOTE]
@@ -50,4 +51,4 @@ bundle exec jekyll serve
 - [Just the Docs (Official)](https://just-the-docs.com/)
 - [GitHub Pages (official)](https://docs.github.com/en/pages)
 - [GitHub Pages / Actions workflow (official)](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/)
-- [gnuplot](https://home.hiroshima-u.ac.jp/tjohzaki/rgdl_html/programming/gnuplot_install.htm)
+- [polyglot](https://github.com/untra/polyglot.git)
