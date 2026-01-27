@@ -10,11 +10,18 @@ baseurl: ""                  # GitHub Pages でサブパス運用なら /repo-na
 languages: ["ja", "en"]
 default_lang: "ja"
 exclude_from_localization: ["/assets", "/css", "/images"]
-parallel_localization: true
+#parallel_localization: true
 
 just_the_docs:
   search_enabled: true
   heading_anchors: true
+
+aux_links:
+  "日本語":
+    - "/"
+  "English":
+    - "/en/"
+aux_links_new_tab: false
 
 # コレクション設定
 # collections:
