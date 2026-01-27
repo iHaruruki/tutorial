@@ -2,13 +2,7 @@
 title: "My Dev Docs"
 description: "Docker, Linux, Git, LaTeX, ROS2, YARP"
 theme: "just-the-docs"
-url: "https://example.com"    # 公開用URL（後で修正可）
-
-aux_links:
-  "日本語":
-    - "http://iharuruki.github.io/tutorial/"
-  "English":
-    - "http://iharuruki.github.io/tutorial/en/"
+url: "http://iharuruki.github.io/tutorial/"
 
 aux_links:
   "日本語":
@@ -30,31 +24,12 @@ exclude_from_localization: ["/assets", "/css", "/images"]
 just_the_docs:
   search_enabled: true
   heading_anchors: true
-
-# コレクション設定
-# collections:
-#   docs:
-#     output: true
-#     permalink: /:path/
-
-# Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/just-the-docs.png"
-
-# aux_links:
-#   "日本語": "/"
-#   "English Site": "/en/en/"   # 英語版のトップページURL
-# aux_links_new_tab: false  # Makes Aux links open in a new tab. Default is false
+  color_scheme: dark  # Color scheme supports "light" (default) and "dark"
 
 # Version of mermaid library
 # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
 mermaid:
   vertion: "11.12.0"
-
-# Color scheme supports "light" (default) and "dark"
-#color_scheme: light
-
-# Enable or disable the site search
-#search_enabled: true
 
 # デフォルトレイアウト設定
 defaults:
