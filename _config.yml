@@ -8,8 +8,8 @@ theme: just-the-docs
 
 url: https://iharuruki.github.io/tutorial/
 
-aux_links:
-  Template Repository: https://iharuruki.github.io/tutorial/
+# aux_links:
+#   Template Repository: https://iharuruki.github.io/tutorial/
 
 # Version of mermaid library
 # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
