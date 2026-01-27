@@ -1,17 +1,16 @@
 title: Tutorial
 description: Tutorial for those planning to join a research lab
-theme: just-the-docs
+#theme: just-the-docs
+url: https://iharuruki.github.io/tutorial/
+baseurl: ""
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
 
-
-url: https://iharuruki.github.io/tutorial/
-
-aux_links:
-  "日本語": "/"
-  "English Site": "/en/en/"   # 英語版のトップページURL
-aux_links_new_tab: false  # Makes Aux links open in a new tab. Default is false
+# aux_links:
+#   "日本語": "/"
+#   "English Site": "/en/en/"   # 英語版のトップページURL
+# aux_links_new_tab: false  # Makes Aux links open in a new tab. Default is false
 
 # Version of mermaid library
 # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
@@ -24,16 +23,19 @@ plugins:
   - jekyll-relative-links # 相対リンク
 
 # 多言語設定
-languages: ["ja", "en", "th"]
+languages: ["ja", "en"]
 default_lang: "ja"
-exclude_from_localization: ["assets"] # 翻訳不要なアセットフォルダ
-parallel_localization: true
+exclude_from_localization: ["/assets", "/css", "/js", "/images", "/downloads"]
+parallel_localization: false
 
-sass:
-  sourcemap: never
+# ドキュメント固有の設定
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: light
+#color_scheme: light
 
 # Enable or disable the site search
-search_enabled: true
+#search_enabled: true

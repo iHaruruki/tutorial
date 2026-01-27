@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Home
-nav_order: 1
+title: Documentation
 lang: en
-permalink: /en/
 ---
 Hello, English cite.

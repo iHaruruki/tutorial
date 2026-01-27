@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<div class="doc-container">
+  <aside class="doc-sidebar">
+    {% if page.lang == 'ja' %}
+      <nav class="doc-nav">
+        <h3>トピック</h3>
+        <ul>
+          <li><a href="{{ site.baseurl }}/docs/ubuntu/">Ubuntu</a></li>
+          <li><a href="{{ site.baseurl }}/docs/git/">Git</a></li>
+          <li><a href="{{ site.baseurl }}/docs/latex/">LaTeX</a></li>
+          <li><a href="{{ site.baseurl }}/docs/ros2/">ROS2</a></li>
+          <li><a href="{{ site.baseurl }}/docs/yarp/">YARP</a></li>
+        </ul>
+      </nav>
+    {% else %}
+      <nav class="doc-nav">
+        <h3>Topics</h3>
+        <ul>
+          <li><a href="{{ site.baseurl }}/en/docs/ubuntu/">Ubuntu</a></li>
+          <li><a href="{{ site.baseurl }}/en/docs/git/">Git</a></li>
+          <li><a href="{{ site.baseurl }}/en/docs/latex/">LaTeX</a></li>
+          <li><a href="{{ site.baseurl }}/en/docs/ros2/">ROS2</a></li>
+          <li><a href="{{ site.baseurl }}/en/docs/yarp/">YARP</a></li>
+        </ul>
+      </nav>
+    {% endif %}
+  </aside>
+
+  <article class="doc-content">
+    {% include language-switcher.html %}
+    {{ content }}
+  </article>
+</div>
+
+<style>
+  .doc-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .doc-sidebar {
+    flex: 0 0 250px;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 4px;
+  }
+
+  .doc-nav h3 {
+    margin-top: 0;
+  }
+
+  .doc-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .doc-nav a {
+    display: block;
+    padding: 0.5rem 0;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .doc-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .doc-content {
+    flex: 1;
+  }
+
+  @media (max-width: 768px) {
+    .doc-container {
+      flex-direction: column;
+    }
+
+    .doc-sidebar {
+      flex: 1;
+    }
+  }
+</style>

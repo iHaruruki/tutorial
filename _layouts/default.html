@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="main-nav">
+      {% if page.lang == 'ja' %}
+        <a href="{{ site.baseurl }}/">ホーム</a>
+      {% else %}
+        <a href="{{ site.baseurl }}/en/">Home</a>
+      {% endif %}
+    </nav>
+    {% include language-switcher.html %}
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ドキュメント. All rights reserved.</p>
+  </footer>
+</body>
+</html>
