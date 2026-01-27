@@ -1,8 +1,8 @@
 ---
-title: Set up Docker
+title: Setup
 layout: default
 parent: Docker
-# nav_order: 2
+nav_order: 0
 ---
 
 ## Install Docker
