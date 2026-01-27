@@ -1,8 +1,23 @@
-title: Tutorial
-description: Tutorial for those planning to join a research lab
-#theme: just-the-docs
-url: https://iharuruki.github.io/tutorial/
+# サイト設定
+title: "ドキュメント"
+description: "Ubuntu, Git, LaTeX, ROS2, YARPのドキュメント"
+url: "https://yourdomain.com"
 baseurl: ""
+
+# 多言語設定
+languages: ["ja", "en"]
+default_lang: "ja"
+exclude_from_localization: ["/assets", "/css", "/js", "/images", "/downloads"]
+parallel_localization: false
+
+# コレクション設定
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# テーマ（HTMLを最小化するため）
+theme: minima
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
@@ -21,21 +36,26 @@ plugins:
   - jekyll-default-layout
   - jekyll-polyglot
   - jekyll-relative-links # 相対リンク
-
-# 多言語設定
-languages: ["ja", "en"]
-default_lang: "ja"
-exclude_from_localization: ["/assets", "/css", "/js", "/images", "/downloads"]
-parallel_localization: false
-
-# ドキュメント固有の設定
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
+  - jekyll-sitemap
 
 # Color scheme supports "light" (default) and "dark"
 #color_scheme: light
 
 # Enable or disable the site search
 #search_enabled: true
+
+# デフォルトレイアウト設定
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+  - scope:
+      path: "index.md"
+    values:
+      layout: "home"
+  - scope:
+      path: "index-en.md"
+    values:
+      layout: "home"

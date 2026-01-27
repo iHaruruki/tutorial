@@ -1,0 +1,212 @@
+:root {
+  --primary-color: #0066cc;
+  --text-color: #333;
+  --bg-color: #fff;
+  --border-color: #ddd;
+  --sidebar-bg: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+/* ホームページ */
+.home-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-page h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.home-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-page li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.home-page a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.home-page a:hover {
+  text-decoration: underline;
+}
+
+/* ドキュメントページ */
+.doc-page {
+  background-color: #fafafa;
+}
+
+.doc-container {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  background-color: var(--sidebar-bg);
+  padding: 1.5rem;
+  border-radius: 4px;
+  height: fit-content;
+  position: sticky;
+  top: 1rem;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 0.5rem 0;
+}
+
+.sidebar a {
+  color: var(--primary-color);
+  text-decoration: none;
+  display: block;
+  padding: 0.25rem 0;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.doc-content {
+  flex: 1;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.doc-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.doc-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.doc-content h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.doc-content p {
+  margin-bottom: 1rem;
+}
+
+.doc-content code {
+  background-color: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+}
+
+.doc-content pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1rem 0;
+  line-height: 1.4;
+}
+
+.doc-content pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.doc-content ul, .doc-content ol {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.doc-content li {
+  margin-bottom: 0.5rem;
+}
+
+.doc-content a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.doc-content a:hover {
+  text-decoration: underline;
+}
+
+/* 言語切り替え */
+hr {
+  border: none;
+  border-top: 2px solid var(--border-color);
+  margin: 1.5rem 0;
+}
+
+/* レスポンシブ */
+@media (max-width: 768px) {
+  .doc-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: static;
+  }
+
+  .doc-content {
+    padding: 1rem;
+  }
+
+  .doc-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .home-page h1 {
+    font-size: 1.8rem;
+  }
+}
