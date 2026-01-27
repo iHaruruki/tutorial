@@ -2,9 +2,14 @@
 title: "My Dev Docs"
 description: "Docker, Linux, Git, LaTeX, ROS2, YARP"
 theme: "just-the-docs"
-
-url: "https://example.com"   # 公開用URL（後で修正可）
+url: "https://example.com"    # 公開用URL（後で修正可）
 #baseurl: ""                  # GitHub Pages でサブパス運用なら /repo-name
+
+aux_links:
+  "日本語":
+    - "http://iharuruki.github.io/tutorial/"
+  "English":
+    - "http://iharuruki.github.io/tutorial/en/"
 
 plugins:
   - jekyll-default-layout
@@ -20,11 +25,6 @@ exclude_from_localization: ["/assets", "/css", "/images"]
 just_the_docs:
   search_enabled: true
   heading_anchors: true
-aux_links:
-  "日本語":
-    - "/"
-  "English":
-    - "/en/"
 
 # コレクション設定
 # collections:
