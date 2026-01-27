@@ -22,9 +22,9 @@ just_the_docs:
   heading_anchors: true
 aux_links:
   "日本語":
-  - "/ja/"
+  - "ja/"
   "English":
-  - "/en/"
+  - "en/"
 aux_links_new_tab: false
 
 # コレクション設定
