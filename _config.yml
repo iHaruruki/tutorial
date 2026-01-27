@@ -18,3 +18,6 @@ mermaid:
 
 plugins:
   - jekyll-default-layout
+
+plugins:
+  - jekyll-relative-links # 相対リンク
