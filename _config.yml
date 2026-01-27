@@ -10,7 +10,7 @@ url: https://iharuruki.github.io/tutorial/
 
 aux_links:
   "日本語": "/"
-  "English Site": "/en"   # 英語版のトップページURL
+  "English Site": "/en/en/"   # 英語版のトップページURL
 aux_links_new_tab: false  # Makes Aux links open in a new tab. Default is false
 
 # Version of mermaid library
