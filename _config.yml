@@ -4,7 +4,13 @@ description: "Docker, Linux, Git, LaTeX, ROS2, YARP"
 theme: "just-the-docs"
 
 url: "https://example.com"   # 公開用URL（後で修正可）
-baseurl: ""                  # GitHub Pages でサブパス運用なら /repo-name
+#baseurl: ""                  # GitHub Pages でサブパス運用なら /repo-name
+
+plugins:
+  #- jekyll-default-layout
+  - jekyll-polyglot
+  #- jekyll-relative-links # 相対リンク
+  #- jekyll-sitemap
 
 # 多言語設定
 languages: ["ja", "en"]
@@ -15,13 +21,12 @@ exclude_from_localization: ["/assets", "/css", "/images"]
 just_the_docs:
   search_enabled: true
   heading_anchors: true
-
-aux_links:
+  aux_links:
   "日本語":
-    - "/"
+  - "/ja/"
   "English":
-    - "/en/"
-aux_links_new_tab: false
+  - "/en/"
+  aux_links_new_tab: false
 
 # コレクション設定
 # collections:
@@ -42,12 +47,6 @@ aux_links_new_tab: false
 mermaid:
   vertion: "11.12.0"
 
-plugins:
-  #- jekyll-default-layout
-  - jekyll-polyglot
-  #- jekyll-relative-links # 相対リンク
-  #- jekyll-sitemap
-
 # Color scheme supports "light" (default) and "dark"
 #color_scheme: light
 
@@ -58,7 +57,6 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: docs
     values:
       layout: "default"
       has_children: false
