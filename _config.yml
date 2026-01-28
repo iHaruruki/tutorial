@@ -12,20 +12,21 @@ aux_links:
 
 plugins:
   - jekyll-default-layout
-  - jekyll-polyglot
+  - jekyll-polyglot # Multi-languages plugin
   - jekyll-relative-links # 相対リンク
 
 # 多言語設定
 languages: ["ja", "en"]
 default_lang: "ja"
 exclude_from_localization: ["/assets", "/css", "/images"]
-#parallel_localization: true
+parallel_localization: false
 
 just_the_docs:
   search_enabled: true
   heading_anchors: true
-  
-color_scheme: dark  # Color scheme supports "light" (default) and "dark"
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
 
 # Version of mermaid library
 # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
