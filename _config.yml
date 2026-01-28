@@ -26,7 +26,7 @@ just_the_docs:
   heading_anchors: true
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+color_scheme: light
 
 # Version of mermaid library
 # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
