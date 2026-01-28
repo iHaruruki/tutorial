@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Git"
+title: "ROS2"
 lang: "en"
-nav_order: 4
+nav_order: 7
 has_children: true
-permalink: "/git/"
+permalink: "/ros2/"
 ---
 
 # Git

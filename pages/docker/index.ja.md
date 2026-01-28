@@ -2,7 +2,7 @@
 layout: default
 title: "Docker"
 lang: "ja"
-nav_order: 10
+nav_order: 2
 has_children: true
 permalink: "/docker/"
 ---

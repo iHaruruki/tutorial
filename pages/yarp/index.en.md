@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Git"
+title: "YARP"
 lang: "en"
-nav_order: 4
+nav_order: 8
 has_children: true
-permalink: "/git/"
+permalink: "/yarp/"
 ---
 
 # Git
