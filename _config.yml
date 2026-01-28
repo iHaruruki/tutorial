@@ -24,7 +24,8 @@ exclude_from_localization: ["/assets", "/css", "/images"]
 just_the_docs:
   search_enabled: true
   heading_anchors: true
-  color_scheme: dark  # Color scheme supports "light" (default) and "dark"
+  
+color_scheme: dark  # Color scheme supports "light" (default) and "dark"
 
 # Version of mermaid library
 # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
