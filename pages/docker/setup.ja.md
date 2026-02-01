@@ -7,6 +7,15 @@ nav_order: 1
 permalink: "/docker/setup/"
 ---
 
-# Docker セットアップ
 
-ここに Docker のインストール手順や初期設定を書きます。
+# Install WSL(Windows Subsystem for Linux)
+1. `PwerShll`を管理者モードで開く（右クリックして，「管理者で開く」）
+2. コマンドを入力
+```shell
+wsl --install
+```
+3. コンピュータを再起動する
+
+# Install Docker Desktop
+1. [Get Started with Docker](https://www.docker.com/get-started/)をブラウザで開く
+2. 
