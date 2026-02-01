@@ -18,4 +18,5 @@ wsl --install
 
 # Install Docker Desktop
 1. [Get Started with Docker](https://www.docker.com/get-started/)をブラウザで開く
-2. [For Windows user]`Download for Windows-AMD64`をダウンロード[download](/assets/images/docker/download.png)
+2. [For Windows user]`Download for Windows-AMD64`をダウンロード
+![download](/assets/images/docker/download.png)
