@@ -7,6 +7,5 @@ nav_order: 1
 permalink: "/latex/setup/"
 ---
 
-# Docker セットアップ
-
-ここに Docker のインストール手順や初期設定を書きます。
+# LaTex セットアップ
+![Commint soon](/assets/images/icon_comming_soon.png)

@@ -8,5 +8,4 @@ permalink: "/docker/setup/"
 ---
 
 # Docker Setup
-
-Write how to install Docker and initial configuration here.
+![Commint soon](/assets/images/icon_comming_soon.png)

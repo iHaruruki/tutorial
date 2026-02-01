@@ -7,4 +7,4 @@ has_children: true
 permalink: "/git/"
 ---
 
-# Git
+![Commint soon](/assets/images/icon_comming_soon.png)

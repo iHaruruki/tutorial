@@ -7,4 +7,4 @@ has_children: true
 permalink: "/latex/"
 ---
 
-LaTeXの説明
+![Commint soon](/assets/images/icon_comming_soon.png)
