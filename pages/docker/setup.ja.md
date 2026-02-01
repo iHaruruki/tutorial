@@ -48,7 +48,7 @@ wsl --install
 <img src="../../assets/images/docker/start_terminal.png" alt="Download" width="80%">
 
 6. ターミナルに以下のコマンドを入力し，Docker imageのpullとコンテナの起動を行う  
-（Docker image(size: 11GB)をダウンロードするので10分ほど待つ）
+（Docker image(size: 12GB)をダウンロードするので10分ほど待つ）
 ```shell
 # docker run --name [CONTAINER NAME] -p <ホスト側のポート>:<コンテナ側のポート> --security-out [seccomp=unconfined] --shm-size=[MEMORY SIZE] [DOCKER IMAGE NAME]
 docker container run --name ubuntu2404-ros2 -p 6080:80 --security-opt seccomp=unconfined --shm-size=512m iharuruki/ubuntu2404-ros2-jazzy
