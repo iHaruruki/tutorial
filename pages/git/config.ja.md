@@ -3,7 +3,7 @@ layout: default
 title: "Config"
 lang: "ja"
 parent: "Git"
-nav_order: 1
+nav_order: 2
 permalink: "/git/config/"
 ---
 
