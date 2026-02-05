@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "基本的なコマンド"
+title: "setup"
 lang: "ja"
 parent: "LaTeX"
 nav_order: 1
