@@ -2,7 +2,7 @@
 layout: default
 title: "基本的なコマンド"
 lang: "ja"
-parent: "LaTex"
+parent: "LaTeX"
 nav_order: 1
 permalink: "/latex/setup/"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Hello LaTeX"
 lang: "ja"
-parent: "LaTex"
+parent: "LaTeX"
 nav_order: 2
 permalink: "/latex/hello_latex/"
 ---
