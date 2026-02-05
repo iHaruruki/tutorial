@@ -1,8 +1,9 @@
+---
 title: "Hello LaTeX"
 lang: "ja"
 parent: "LaTex"
 nav_order: 2
-permalink: "/latex/setup/"
+permalink: "/latex/hello_latex/"
 ---
 
 1. Docker DesktopまたはPowerShellを開く
